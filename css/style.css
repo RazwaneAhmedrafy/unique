@@ -1,0 +1,1143 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Maven Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.navbar-wrapper {
+  margin-top: 0px;
+  position: relative;
+  z-index: 15;
+
+}
+.header-section .isStuck{
+    left:0px;
+    width:100%;
+    background: #999999;
+}
+/*header-section css start*/
+.header-section{
+	width: 100%;
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-brand img{
+	max-width: 115px;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #511de5;
+	background: url(../images/layer.png) center bottom no-repeat;
+	background-size: contain;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #1a1a1a;
+    font-weight: 700;
+    margin: 0px 15px;
+
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url(../images/layer.png) center bottom no-repeat;
+	background-size: contain;
+}
+.main-menu .navbar-light .btn-link{
+    color: #1a1a1a;
+    font-weight: 700;
+    margin: 0px 15px;
+    transition: 1s;
+}
+.main-menu .navbar-light .btn-link:hover, .main-menu .navbar-light .btn-link:focus{
+	color: #511de5;
+	text-decoration: none;
+}
+.main-menu .navbar-light .btn-info {
+    padding: 6px 25px;
+    border: 0px;
+    color: #ffffff;
+    text-transform: capitalize;
+    background: linear-gradient(45deg, #511de5, #0b8dfc);
+    border-radius: 35px;
+    font-weight: 600;
+    transition: 1s;
+}
+.main-menu .navbar-light .btn-info:hover, .main-menu .navbar-light .btn-info:focus{
+color: #ffffff;
+background:  linear-gradient(45deg, #0b8dfc, #511de5);
+}
+/*header-section css end*/
+
+/*banner-section css start*/
+
+.banner{
+   width: 100%;
+   padding: 120px 0px;
+
+}
+.inner-banner{
+	width: 100%;
+	text-align: right;
+	padding: 87px 0px;
+}
+.inner-banner h1{
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 55px;
+	color: #1a1a1a;
+}
+.inner-banner h1 span{
+    color: #511de5;
+}
+.inner-banner .btn-primary{
+	 padding: 8px 25px;
+    color: #061113;
+    text-transform: uppercase;
+    border: 1px solid #f2f2f2;
+    background: #f2f2f2;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 1s;
+}
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+	color: #511de5;
+	background: transparent;
+	 border: 1px solid #511de5;
+}
+.inner-banner .btn-primary .fa{
+	margin-left: 10px;
+}
+
+/*banner-section css end*/
+
+/*highlight-section css start*/
+
+.highlight{
+	width: 100%;
+	padding: 50px 0px;
+	background: url(../images/blank.png) center top no-repeat;
+	background-size: cover; 
+}
+.highlight .inner-high{
+	width: 100%;
+	position: relative;
+}
+.highlight .inner-high img{
+position: absolute;
+left: 0px;
+top: -105px;
+}
+.highlight .inner-high h4{
+	width: 60%;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px auto;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 700;
+
+}
+
+
+/*highlight-section css end*/
+
+
+/*fetures-section css start*/
+
+.fetures{
+	width: 100%;
+	padding: 80px 0px;
+}
+.fetures .inner-fetures{
+	width: 100%;
+	padding:80px;
+	background: url(../images/bg.png) bottom right no-repeat;
+	background-size: contain;
+	box-shadow: 1px 2px 30px #ccc;
+   
+}
+
+.fetures .inner-fetures h2{
+font-size: 36px;
+line-height: 40px;
+margin-bottom: 25px;
+color: #000;
+font-weight: 900;
+}
+.fetures .inner-fetures p{
+	color: #000;
+	
+}
+.fetures .inner-fetures .big-text{
+	margin-top: 25px;
+}
+.fetures .inner-fetures .big-text .percent{
+	font-size: 80px;
+	font-weight: 900;
+	margin: 0px 10px 0px 0px;
+	background: linear-gradient(90deg, #511de5, #0b8cfb);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+
+}
+.fetures .inner-fetures .big-text .pi{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.clint-image{
+	width: 100%;
+	padding: 60px 0px 0px;
+}
+/*fetures-section css end*/
+
+/*Quote-section css start*/
+.quote{
+      width: 100%;
+      padding: 140px 0px;
+      background:url(../images/qbg.png) center top no-repeat;
+      background-size: cover;
+}
+
+.quote .quote-inner{
+	width: 100%;
+	background:url(../images/qbg2.png) center top no-repeat;
+      background-size: contain;
+      padding: 92px 30px;
+      margin: 70px 0px;
+}
+.quote .quote-inner .quote-content{
+width: 80%;
+padding: 28px;
+margin: 0px auto;
+}
+.quote .quote-inner .quote-content p{
+color: #fff;
+margin: 20px 10px 20px 28px;
+}
+.quote .quote-inner .quote-content h4{
+	font-size: 16px;
+	color: #fff;
+	margin: 10px 0px 0px 28px;
+}
+.quote .inner-content{
+	margin: 150px 0px;
+	width: 100%;
+}
+
+.quote .inner-content h2{
+	font-size: 52px;
+	font-weight: 900;
+	line-height: 55px;
+	color: #1a1a1a;
+	margin-bottom: 25px;
+}
+.quote .inner-content .btn-primary{
+	  padding: 8px 25px;
+    color: #061113;
+    text-transform: uppercase;
+    border: 1px solid #f2f2f2;
+    background: #f2f2f2;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 1s;
+}
+.quote .inner-content .btn-primary:hover, .quote .inner-content .btn-primary:focus{
+	color: #511de5;
+	background: transparent;
+    border: 1px solid #511de5;
+}
+.quote .inner-content .btn-primary .fa{
+	margin-left: 10px;
+}
+/*Quote-section css end*/
+
+/*happy-section css start*/
+
+.happy{
+	width: 100%;
+	padding: 80px 0px;
+}
+.happy .happy-inner h2{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 55px;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+.happy .happy-inner p{
+	color: #000;
+	margin: 25px 0px;
+	font-weight: 400;
+}
+.happy .happy-inner .track{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 15px;
+}
+.happy .happy-inner .data{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+.happy .happy-inner .track img, .happy .happy-inner .data img{
+	margin-right: 15px;
+}
+.happy .happy-inner .btn-primary{
+	 padding: 8px 25px;
+    color: #061113;
+    text-transform: uppercase;
+    border: 1px solid #f2f2f2;
+    background: #f2f2f2;
+    border-radius: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    transition: 1s;
+    margin-top: 10px;
+}
+.happy .happy-inner .btn-primary:hover, .happy .happy-inner .btn-primary:focus{
+color: #ffffff;
+background:  linear-gradient(45deg, #0b8dfc, #511de5);
+}
+.happy .happy-inner .btn-primary .fa{
+	margin-left: 10px;
+}
+/*happy-section css end*/
+
+/*design-section css start*/
+
+.design{
+	width: 100%;
+	padding: 80px 0px;
+	background: #fcfcfc;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.design .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+.design .title h2{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 55px;
+    color: #1a1a1a;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.design .title p{
+	width: 50%;
+	margin: 0px auto;
+	color: #000;
+	margin-bottom: 25px;
+	font-weight: 400;	
+}
+.design .desing-inner{
+	width: 100%;
+	padding: 30px 40px;
+	text-align: center;
+}
+
+.design .desing-inner img{
+mix-blend-mode: darken;
+}
+.design .desing-inner h5{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #000;
+}
+.design .desing-inner p{
+	font-weight: 400;
+	line-height: 30px;
+	color: #000;
+}
+
+.middle-border{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+/*design-section css end*/
+
+/*hero-section css start*/
+.hero{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.hero .hero-inner h2{
+	width: 100%;
+	text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 55px;
+    color: #1a1a1a;
+
+}
+.hero .hero-box{
+	width: 100%;
+	text-align: center;
+	background: url("../images/for1.png") center top no-repeat;
+	background-size: cover;
+	padding: 40px 5px 0px;
+	border: 1px solid #f2f2f2;
+}
+
+.hero .hero-box .top-hero{
+	width: 100%;
+	padding: 55px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+.hero .hero-box .top-hero h5{
+	font-size: 16px;
+	line-height: 26px;
+	color: #999999;
+	font-weight: 700;
+	padding: 0px 20px;
+
+}
+.hero .hero-box .bottom-hero{
+	width: 100%;
+	padding: 40px 0px;
+}
+
+.hero .hero-box .bottom-hero img{
+width: 60px;
+height: 60px;
+border-radius: 100%;
+margin-bottom: 10px;
+}
+
+.hero .hero-box .bottom-hero h5{
+	font-size: 16px;
+	line-height: 26px;
+	color: #999999;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+.hero .hero-box .bottom-hero h6{
+	margin-bottom: 0px;
+	font-weight: 500;
+	font-size: 14px;
+	color: #c2c2c2;
+	text-transform: capitalize;	
+}
+.hero .hero-box:hover .top-hero h5{
+	background: linear-gradient(90deg, #511de5, #0b8cfb);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	-webkit-transition:5s;
+}
+
+.hero .hero-box:hover .bottom-hero h5{
+	color: #000;
+	-webkit-transition:1s;
+}
+.hero .hero-box:hover .bottom-hero h6{
+	color: #676767;
+	-webkit-transition:1s;
+}
+/*hero-section css end*/
+
+/*footer-section css start*/
+
+.footer{
+	width: 100%;
+	background: url(../images/fbg.png) center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+
+.inner-faq{
+	width: 100%;
+	background: #ffffff;
+	padding: 80px;
+	box-shadow: 1px 1px 8px #ccc;
+
+}
+.inner-faq .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+.inner-faq .title h2{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 55px;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+}
+.inner-faq .card{
+	background-clip: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #eee !important;
+}
+.inner-faq .card .card-header {
+    padding: .75rem 1.25rem .75rem 0rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+.inner-faq .card .card-body{
+	    padding: .25rem 1.25rem 1.25rem 0rem;
+	    color: #000;
+} 
+
+.inner-faq .card .card-header .btn-link {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+.inner-faq .card .card-header .btn-link:hover, .inner-faq .card .card-header .btn-link:focus{
+	color: #0000ff;
+}
+.inner-faq .card .card-header .btn{
+	padding-left: 0px;
+}
+.inner-faq .card .card-header .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.footer-left{
+	width: 100%;
+	padding: 100px 0px 0px;
+
+}
+.footer-left li{
+   display: inline-block;
+}
+.footer-left a{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0px 5px;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    list-style: none;
+    transition: 1s;
+
+}
+.footer-left ul li a:hover{
+	color: #999999;
+	text-decoration: none;
+}
+.footer-text{
+	width: 100%;
+	padding: 101px 0px 0px;
+}
+.footer-text h5{
+	color: #fff;
+	font-weight: 700;
+	padding-left: 43px;
+
+}
+/*footer-section css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************************************************
+
+      *****Responsive Media Query Code Start**********
+
+**********************************************************************************************************/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+ /**************************************/
+ 
+ 
+.main-menu .navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../images/layer.png) left bottom no-repeat;
+    background-size: auto;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url(../images/layer.png) left bottom no-repeat;
+	background-size: auto;
+}
+.main-menu .navbar-light .btn-link {
+    text-align: left;
+    margin: 0px 3px;
+}
+.main-menu .navbar-light .btn-info{
+	font-size: 12px;
+}
+
+.banner {
+    padding: 62px 0px;
+}
+
+.inner-banner{
+    padding: 20px 0px;
+}
+
+.inner-banner h1 {
+    font-size: 39px;
+}
+
+.highlight {
+	padding: 60px 0px;
+}
+
+.highlight .inner-high img {
+    position: absolute;
+    left: 0px;
+    top: -90px;
+    width: 25%;
+}
+.highlight .inner-high h4 {
+    width: 75%;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+.fetures {
+    padding-bottom: 0px;
+}
+.fetures .inner-fetures {
+    padding: 40px;
+}
+.fetures .inner-fetures h2 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+.fetures .inner-fetures .big-text {
+    margin-top: 5px;
+}
+.fetures .inner-fetures .big-text .percent {
+    font-size: 65px;
+    margin: 0px 9px 0px 0px;
+}
+.clint-image {
+    width: 100%;
+    padding: 15px 0px 0px;
+}
+.quote {
+    padding: 120px 0px;
+}
+.quote .quote-inner .quote-content p {
+    color: #fff;
+    font-size: 13px;
+}
+.quote .quote-inner {
+    padding: 40px 35px;
+    margin: 30px 0px;
+}
+.quote .quote-inner .quote-content {
+    width: 90%;
+    padding: 0px;
+}
+.quote .quote-inner .quote-content h4 {
+    font-size: 15px;
+    color: #fff;
+    margin: 10px 0px 0px 28px;
+}
+.quote .inner-content {
+    margin: 0px 50px;
+    width: 70%;
+}
+.quote .inner-content h2 {
+     font-size: 29px;   
+     margin-top: 60px;
+    line-height: 40px;
+}
+.happy {
+    width: 100%;
+    padding: 60px 0px;
+}
+.happy .happy-inner h2 {
+    font-size: 30px;   
+     margin-top: 0px;      
+    line-height: 40px;
+}
+.happy .happy-inner p {
+    margin: 20px 0px;
+}
+.happy .happy-inner .track {
+    font-size: 13px;  
+   margin-bottom: 12px;
+}
+.happy .happy-inner .data{
+	font-size: 13px;
+}
+.happy .happy-inner .btn-primary{
+	padding: 7px 22px;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.design {
+   padding: 40px 0px;
+}
+.design .title h2 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.design .title {
+    padding: 0px 0px 20px;   
+}
+.design .desing-inner h5 {
+    font-size: 16px;
+ }
+.design .desing-inner p {
+    line-height: 25px;
+}
+.design .title p {
+    width: 70%;   
+    margin-bottom: 25px;
+  
+}
+.hero {
+    width: 100%;
+    padding: 40px 0px;
+}
+.hero .hero-inner h2 { 
+        font-size: 40px;
+}
+.hero .hero-box .top-hero {
+    width: 100%;
+    padding: 25px 0px;
+    border-bottom: 1px solid #eee;
+}
+.hero .hero-box {
+      padding: 20px 5px 0px;  
+}
+.hero .hero-box .top-hero h5 {
+    font-size: 14px;
+    line-height: 23px;
+    color: #999999;
+    font-weight: 700;
+    padding: 0px 0px;
+}
+.hero .hero-box .bottom-hero h5 {
+    font-size: 14px;
+    line-height: 24px;
+}
+.inner-faq {
+    padding: 40px;
+
+}
+.inner-faq .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.inner-faq .title {
+    padding: 0px 0px 20px;
+}
+
+/************************************/
+ 
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+ /**************************************/
+ 
+.main-menu .navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../images/layer.png) left bottom no-repeat;
+    background-size: auto;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url(../images/layer.png) left bottom no-repeat;
+	background-size: auto;
+}
+.main-menu .navbar-light .btn-link {
+    text-align: left;
+    margin: 0px 3px;
+}
+.main-menu .navbar-light .btn-info{
+	font-size: 12px;
+}
+
+.banner{
+    padding: 0px 0px;
+}
+
+.inner-banner{
+    padding: 10px 0px;
+}
+
+.inner-banner h1{
+	 font-size: 30px;
+	 line-height: 40px;
+	 margin-right: 100px;
+}
+.inner-banner .btn-primary{
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-right: 100px;
+}
+.highlight {
+	padding: 10px 0px;
+}
+
+.highlight .inner-high img {
+    position: absolute;
+    left: 0px;
+    top: -30px;
+    width: 25%;
+}
+.highlight .inner-high h4 {
+    width: 75%;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+.fetures{
+    padding:40px 0px;
+}
+
+.fetures .inner-fetures {
+    padding: 25px;
+}
+.fetures .inner-fetures h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 17px;
+}
+.fetures .inner-fetures .big-text {
+    margin-top: 5px;
+}
+.fetures .inner-fetures .big-text .percent {
+    font-size: 55px;
+    margin: 0px 7px 0px 0px;
+}
+.clint-image {
+    width: 100%;
+    padding: 15px 0px 0px;
+}
+.quote {
+    padding: 30px 0px;
+}
+.quote .quote-inner {
+    padding: 40px 35px;
+    margin: 10px 0px;
+}
+.quote .quote-inner .quote-content {
+    width: 50%;
+    padding: 0px;
+}
+.quote .inner-content {
+    margin: 0px 50px;
+    width: 70%;
+}
+.quote .inner-content h2 {
+     font-size: 29px;   
+    line-height: 40px;
+}
+.happy {
+    width: 100%;
+    padding: 40px 0px;
+}
+.happy .happy-inner h2 {
+    font-size: 30px;   
+     margin-top: 0px; 
+}
+.happy .happy-inner p {
+    margin: 20px 0px;
+}
+.happy .happy-inner .btn-primary{
+	padding: 7px 22px;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.design {
+   padding: 40px 0px;
+}
+.design .title h2 {
+    font-size: 30px;    
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom:20px;
+}
+.design .title {
+    padding: 0px 0px 20px;   
+}
+.design .title p {
+    width: 70%;   
+    margin-bottom: 25px;
+  
+}
+.hero {
+    width: 100%;
+    padding: 40px 0px;
+}
+.hero .hero-inner h2 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;  
+}
+.hero .hero-box .top-hero {
+    width: 100%;
+    padding: 25px 0px;
+    border-bottom: 1px solid #eee;
+}
+.hero .hero-box {
+      padding: 20px 5px 0px;  
+}
+.inner-faq {
+    padding: 40px;
+
+}
+.inner-faq .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.inner-faq .title {
+    padding: 0px 0px 20px;
+}
+.footer-left {
+    width: 100%;
+    padding: 10px 0px 0px;
+}
+dl, ol, ul {
+    font-size: 13px;
+}
+.footer-text {
+    width: 100%;
+    padding: 10px 0px 0px;
+}
+.footer-text h5 {
+    font-size: 13px;
+     padding-left: 0px;
+}
+/************************************/
+ 
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /**************************************/
+ 
+.main-menu .navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../images/layer.png) left bottom no-repeat;
+    background-size: auto;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url(../images/layer.png) left bottom no-repeat;
+	background-size: auto;
+}
+.main-menu .navbar-light .btn-link {
+    text-align: left;
+    margin: 0px 3px;
+}
+.main-menu .navbar-light .btn-info{
+	font-size: 12px;
+}
+.banner {
+    padding:20px 0px;
+}
+.inner-banner {
+     padding: 0px 0px; 
+}
+.inner-banner h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+.highlight .inner-high img {
+    position: absolute;
+    top: -77px;
+    width: 45%;
+}
+.highlight .inner-high h4 {
+    width: 80%;
+    font-size: 18px;
+    line-height: 20px;
+}
+.fetures {
+    padding-bottom: 0px;
+}
+.fetures .inner-fetures {
+    padding: 35px;
+}
+.fetures .inner-fetures h2 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.fetures .inner-fetures .big-text {
+    margin-top: 5px;
+}
+.fetures .inner-fetures .big-text .percent {
+    font-size: 45px;
+    margin: 0px 5px 0px 0px;
+}
+.clint-image {
+    width: 100%;
+    padding: 15px 0px 0px;
+}
+.quote {
+    width: 100%;
+    padding: 30px 0px;   
+}
+.quote .quote-inner {
+    padding: 18px 30px;
+    margin: 30px 0px;
+}
+.quote .inner-content {
+    margin: 50px 0px;
+}
+.quote .quote-inner .quote-content {
+    width: 90%;
+    padding: 25px;
+}
+.quote .inner-content h2 {
+    font-size: 28px;   
+    line-height: 40px;
+}
+.happy {
+    padding: 15px 0px;
+}
+.happy .happy-inner h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 10px;   
+}
+.happy .happy-inner p {
+    margin: 20px 0px;
+}
+.happy .happy-inner .track {
+    font-size: 13px;  
+   margin-bottom: 12px;
+}
+.happy .happy-inner .data{
+	font-size: 13px;
+}
+.happy .happy-inner .btn-primary{
+	font-size: 12px;
+	padding: 6px 15px
+	letter-spacing: 2px;
+}
+.design .title h2 {
+    font-size: 28px;
+    line-height: 39px;        
+}
+.design{
+	padding: 20px 0px;
+}
+.design .title p {
+    width: 100%;
+    font-size: 13px;
+}
+.design .desing-inner { 
+    padding: 0px 30px;
+}
+.hero .hero-inner h2 {
+	font-size: 25px;
+}
+.hero {
+    
+    padding: 25px 0px;
+}
+.hero .hero-box .top-hero {   
+    padding: 25px 0px;
+}
+.footer {
+    padding: 30px 0px;
+}
+.inner-faq {
+    padding: 25px;
+}
+.inner-faq .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.inner-faq .title {
+    width: 100%;
+    padding: 0px 0px 20px;
+    text-align: center;
+}
+.inner-faq .card .card-header .btn {
+    font-size: 15px;
+}
+.inner-faq .card .card-body {
+    font-size: 12px;
+}
+.footer-left {
+    width: 100%;
+    padding: 10px 0px 0px;
+}
+dl, ol, ul {
+    font-size: 13px;
+}
+.footer-text {
+    width: 100%;
+    padding: 10px 0px 0px;
+}
+.footer-text h5 {
+    font-size: 13px;
+     padding-left: 0px;
+}
+/************************************/
+  
+}
+
+/********************************************************************************************************
+
+      *****Responsive Media Query Code end**********
+
+**********************************************************************************************************/
+
+
